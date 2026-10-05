@@ -1,0 +1,2635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/avif" href="https://user41127.na.imgto.link/public/20261005/logo.avif">
+    <meta property="og:image" content="https://user41127.na.imgto.link/public/20261005/logo.avif">
+    <title>Divine Acupuncture Learning & Research Center | Chennai</title>
+
+    <meta name="description"
+          content="Divine Acupuncture Learning and Research Center in Chennai provides acupuncture education, clinical practice, practical training, and complementary therapies.">
+    <meta name="keywords"
+          content="acupuncture Chennai, acupuncture training Chennai, diploma acupuncture, master acupuncture, acupuncture clinic, cupping therapy, moxa therapy, reflexology, acupuncture course">
+    <meta name="author" content="Divine Acupuncture Learning and Research Center">
+
+    <style>
+        :root {
+            --primary: #176b57;
+            --primary-dark: #0d4d3f;
+            --secondary: #d8a84e;
+            --cream: #f8f5ed;
+            --light: #eef7f3;
+            --dark: #17352e;
+            --text: #4d5c57;
+            --white: #ffffff;
+            --border: #dce7e2;
+            --shadow: 0 15px 40px rgba(20, 60, 50, 0.10);
+            --radius: 18px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: var(--white);
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .container {
+            width: min(1180px, 92%);
+            margin: auto;
+        }
+
+        /* =========================
+           TOP BAR
+        ========================== */
+
+        .topbar {
+            background: var(--primary-dark);
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .topbar-inner {
+            min-height: 42px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .top-contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .top-contact a:hover {
+            color: var(--secondary);
+        }
+
+        /* =========================
+           NAVIGATION
+        ========================== */
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(255,255,255,0.96);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nav {
+            height: 82px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-mark {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--primary);
+            color: white;
+            display: grid;
+            place-items: center;
+            font-size: 23px;
+            font-weight: bold;
+            box-shadow: 0 6px 18px rgba(23,107,87,.25);
+        }
+
+        .logo-text strong {
+            display: block;
+            color: var(--dark);
+            font-size: 15px;
+            letter-spacing: .5px;
+        }
+
+        .logo-text span {
+            font-size: 11px;
+            color: var(--primary);
+            letter-spacing: 1px;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            list-style: none;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .nav-links a {
+            color: var(--dark);
+            transition: .25s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .nav-cta {
+            background: var(--primary);
+            color: white !important;
+            padding: 11px 18px;
+            border-radius: 30px;
+        }
+
+        .nav-cta:hover {
+            background: var(--primary-dark);
+        }
+
+        .menu-btn {
+            display: none;
+            border: none;
+            background: none;
+            font-size: 28px;
+            cursor: pointer;
+            color: var(--dark);
+        }
+
+        /* =========================
+           HERO
+        ========================== */
+
+        .hero {
+            min-height: 680px;
+            position: relative;
+            overflow: hidden;
+            background:
+                linear-gradient(90deg,
+                    rgba(8,49,40,.94) 0%,
+                    rgba(8,49,40,.78) 48%,
+                    rgba(8,49,40,.30) 100%),
+                radial-gradient(circle at 75% 40%, #76ad9a, #174f42 65%);
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            border: 1px solid rgba(255,255,255,.15);
+            border-radius: 50%;
+            right: -120px;
+            top: 80px;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 720px;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #f2d083;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: clamp(40px, 6vw, 70px);
+            line-height: 1.08;
+            margin-bottom: 20px;
+            letter-spacing: -2px;
+        }
+
+        .hero h1 span {
+            color: #f2d083;
+        }
+
+        .hero p {
+            font-size: 19px;
+            max-width: 680px;
+            color: rgba(255,255,255,.88);
+            margin-bottom: 30px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 24px;
+            border-radius: 8px;
+            font-weight: 700;
+            transition: .25s;
+            border: 2px solid transparent;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--secondary);
+            color: #2e2617;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(216,168,78,.25);
+        }
+
+        .btn-outline {
+            border-color: rgba(255,255,255,.65);
+            color: white;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: var(--primary-dark);
+        }
+
+        /* =========================
+           TRUST STRIP
+        ========================== */
+
+        .trust-strip {
+            background: white;
+            box-shadow: var(--shadow);
+            position: relative;
+            z-index: 10;
+            margin-top: -45px;
+            border-radius: var(--radius);
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+
+        .trust-item {
+            padding: 28px 20px;
+            text-align: center;
+            border-right: 1px solid var(--border);
+        }
+
+        .trust-item:last-child {
+            border-right: 0;
+        }
+
+        .trust-item strong {
+            display: block;
+            color: var(--dark);
+            font-size: 16px;
+        }
+
+        .trust-item span {
+            color: #71817b;
+            font-size: 13px;
+        }
+
+        /* =========================
+           SECTIONS
+        ========================== */
+
+        section {
+            padding: 95px 0;
+        }
+
+        .section-heading {
+            max-width: 700px;
+            margin-bottom: 48px;
+        }
+
+        .section-heading.center {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .section-label {
+            color: var(--primary);
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        h2 {
+            color: var(--dark);
+            font-size: clamp(32px, 4vw, 46px);
+            line-height: 1.15;
+            letter-spacing: -1px;
+            margin-bottom: 15px;
+        }
+
+        .section-heading p {
+            color: var(--text);
+            font-size: 17px;
+        }
+
+        /* =========================
+           ABOUT
+        ========================== */
+
+        .about {
+            background: var(--cream);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-card {
+            background: white;
+            padding: 42px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            border-left: 5px solid var(--secondary);
+        }
+
+        .about-card h3 {
+            color: var(--dark);
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .check-list {
+            list-style: none;
+            margin-top: 22px;
+        }
+
+        .check-list li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 12px;
+        }
+
+        .check-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        /* =========================
+           FOUNDERS
+        ========================== */
+
+        .people-grid {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 25px;
+        }
+
+        .person-card {
+            padding: 35px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            text-align: center;
+            transition: .3s;
+            background: white;
+        }
+
+        .person-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow);
+        }
+
+        .person-icon {
+            width: 82px;
+            height: 82px;
+            margin: 0 auto 18px;
+            border-radius: 50%;
+            background: var(--light);
+            display: grid;
+            place-items: center;
+            color: var(--primary);
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .person-card h3 {
+            color: var(--dark);
+            margin-bottom: 5px;
+        }
+
+        .person-card p {
+            font-size: 14px;
+            color: var(--primary);
+        }
+
+        .healers {
+            margin-top: 50px;
+        }
+
+        .healers-grid {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 22px;
+        }
+
+        /* =========================
+           SERVICES
+        ========================== */
+
+        .services {
+            background: var(--light);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: var(--radius);
+            padding: 30px 25px;
+            border: 1px solid var(--border);
+            transition: .3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow);
+        }
+
+        .service-icon {
+            width: 58px;
+            height: 58px;
+            border-radius: 14px;
+            background: var(--light);
+            display: grid;
+            place-items: center;
+            color: var(--primary);
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .service-card h3 {
+            color: var(--dark);
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            font-size: 14px;
+        }
+
+        /* =========================
+           CONDITIONS
+        ========================== */
+
+        .conditions-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: start;
+        }
+
+        .condition-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .condition {
+            padding: 16px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            background: white;
+            color: var(--dark);
+            font-weight: 600;
+        }
+
+        .individual {
+            background: var(--cream);
+            padding: 35px;
+            border-radius: var(--radius);
+            border: 1px solid #eadfca;
+        }
+
+        .individual h3 {
+            color: var(--dark);
+            margin-bottom: 15px;
+        }
+
+        /* =========================
+           COURSES
+        ========================== */
+
+        .courses {
+            background: var(--dark);
+            color: white;
+        }
+
+        .courses h2,
+        .courses .section-heading p {
+            color: white;
+        }
+
+        .course-grid {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 25px;
+        }
+
+        .course-card {
+            background: white;
+            color: var(--text);
+            padding: 40px;
+            border-radius: var(--radius);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .course-card.featured {
+            border-top: 5px solid var(--secondary);
+        }
+
+        .course-number {
+            color: var(--secondary);
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+
+        .course-card h3 {
+            color: var(--dark);
+            font-size: 28px;
+            margin: 8px 0 12px;
+        }
+
+        .course-card > p {
+            margin-bottom: 20px;
+        }
+
+        .course-list {
+            list-style: none;
+            columns: 2;
+        }
+
+        .course-list li {
+            break-inside: avoid;
+            padding: 7px 0 7px 20px;
+            position: relative;
+            font-size: 14px;
+        }
+
+        .course-list li::before {
+            content: "•";
+            position: absolute;
+            left: 3px;
+            color: var(--primary);
+            font-size: 20px;
+        }
+
+        .course-meta {
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 13px;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        /* =========================
+           PRACTICAL
+        ========================== */
+
+        .practical-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .practical-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-top: 25px;
+        }
+
+        .practical-item {
+            background: var(--light);
+            padding: 17px;
+            border-radius: 10px;
+            color: var(--dark);
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .training-box {
+            background: var(--primary);
+            color: white;
+            padding: 45px;
+            border-radius: 25px;
+            box-shadow: var(--shadow);
+        }
+
+        .training-box h3 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .training-box p {
+            color: rgba(255,255,255,.82);
+        }
+
+        /* =========================
+           WHY US
+        ========================== */
+
+        .why {
+            background: var(--cream);
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+        }
+
+        .why-card {
+            background: white;
+            padding: 30px;
+            border-radius: var(--radius);
+            box-shadow: 0 8px 30px rgba(20,60,50,.05);
+        }
+
+        .why-card span {
+            font-size: 28px;
+        }
+
+        .why-card h3 {
+            color: var(--dark);
+            margin: 15px 0 8px;
+        }
+
+        /* =========================
+           VISION
+        ========================== */
+
+        .vision-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .vision-card {
+            padding: 42px;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+        }
+
+        .vision-card h3 {
+            color: var(--primary);
+            font-size: 26px;
+            margin-bottom: 15px;
+        }
+
+        /* =========================
+           FAQ
+        ========================== */
+
+        .faq {
+            background: var(--light);
+        }
+
+        .faq-list {
+            max-width: 850px;
+            margin: auto;
+        }
+
+        details {
+            background: white;
+            margin-bottom: 12px;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        summary {
+            cursor: pointer;
+            padding: 20px 25px;
+            font-weight: 700;
+            color: var(--dark);
+            list-style: none;
+            position: relative;
+            padding-right: 50px;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        summary::after {
+            content: "+";
+            position: absolute;
+            right: 25px;
+            font-size: 24px;
+            color: var(--primary);
+        }
+
+        details[open] summary::after {
+            content: "−";
+        }
+
+        details p {
+            padding: 0 25px 22px;
+        }
+
+        /* =========================
+           CONTACT
+        ========================== */
+
+        .contact {
+            background: var(--cream);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: .9fr 1.1fr;
+            gap: 40px;
+        }
+
+        .contact-info {
+            background: var(--dark);
+            color: white;
+            border-radius: var(--radius);
+            padding: 42px;
+        }
+
+        .contact-info h2 {
+            color: white;
+        }
+
+        .contact-item {
+            display: flex;
+            gap: 15px;
+            margin: 25px 0;
+        }
+
+        .contact-item-icon {
+            min-width: 42px;
+            height: 42px;
+            border-radius: 10px;
+            background: rgba(255,255,255,.1);
+            display: grid;
+            place-items: center;
+        }
+
+        .contact-item strong {
+            display: block;
+            color: white;
+            margin-bottom: 3px;
+        }
+
+        .contact-item a,
+        .contact-item span {
+            color: rgba(255,255,255,.75);
+        }
+
+        .contact-form {
+            background: white;
+            padding: 42px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+
+        .contact-form h3 {
+            color: var(--dark);
+            font-size: 26px;
+            margin-bottom: 25px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 17px;
+        }
+
+        .form-group {
+            margin-bottom: 17px;
+        }
+
+        .form-group.full {
+            grid-column: 1 / -1;
+        }
+
+        label {
+            display: block;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 7px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 13px 14px;
+            font-family: inherit;
+            font-size: 14px;
+            outline: none;
+            transition: .2s;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(23,107,87,.08);
+        }
+
+        textarea {
+            min-height: 130px;
+            resize: vertical;
+        }
+
+        .form-note {
+            font-size: 12px;
+            color: #777;
+            margin-top: 12px;
+        }
+
+        /* =========================
+           MAP
+        ========================== */
+
+        .map-section {
+            padding: 0;
+        }
+
+        .map {
+            width: 100%;
+            height: 400px;
+            border: 0;
+        }
+
+        /* =========================
+           FOOTER
+        ========================== */
+
+        footer {
+            background: #0b2e27;
+            color: rgba(255,255,255,.72);
+            padding: 60px 0 25px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 50px;
+            padding-bottom: 40px;
+        }
+
+        footer h3 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin: 8px 0;
+        }
+
+        .footer-links a:hover {
+            color: var(--secondary);
+        }
+
+        .copyright {
+            border-top: 1px solid rgba(255,255,255,.1);
+            padding-top: 20px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        /* =========================
+           FLOATING WHATSAPP
+        ========================== */
+
+        .whatsapp {
+            position: fixed;
+            right: 22px;
+            bottom: 22px;
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            background: #25D366;
+            color: white;
+            display: grid;
+            place-items: center;
+            font-size: 27px;
+            z-index: 999;
+            box-shadow: 0 8px 25px rgba(0,0,0,.2);
+        }
+
+        .whatsapp:hover {
+            transform: scale(1.08);
+        }
+
+        /* =========================
+           RESPONSIVE
+        ========================== */
+
+        @media (max-width: 1000px) {
+            .services-grid,
+            .why-grid {
+                grid-template-columns: repeat(2,1fr);
+            }
+
+            .trust-grid {
+                grid-template-columns: repeat(2,1fr);
+            }
+
+            .trust-item:nth-child(2) {
+                border-right: 0;
+            }
+
+            .trust-item {
+                border-bottom: 1px solid var(--border);
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 82px;
+                left: 0;
+                width: 100%;
+                background: white;
+                flex-direction: column;
+                align-items: stretch;
+                padding: 20px 5%;
+                display: none;
+                box-shadow: var(--shadow);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links a {
+                display: block;
+                padding: 10px 0;
+            }
+
+            .menu-btn {
+                display: block;
+            }
+
+            .nav-cta {
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 760px) {
+            .topbar-inner {
+                justify-content: center;
+            }
+
+            .top-contact {
+                justify-content: center;
+                gap: 10px 15px;
+                text-align: center;
+            }
+
+            .top-contact span {
+                display: none;
+            }
+
+            .hero {
+                min-height: 600px;
+            }
+
+            section {
+                padding: 70px 0;
+            }
+
+            .about-grid,
+            .conditions-grid,
+            .course-grid,
+            .practical-grid,
+            .vision-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .people-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .healers-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .services-grid,
+            .why-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .condition-list,
+            .practical-list {
+                grid-template-columns: 1fr;
+            }
+
+            .course-list {
+                columns: 1;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-group.full {
+                grid-column: auto;
+            }
+
+            .about-card,
+            .contact-form,
+            .contact-info {
+                padding: 28px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .trust-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .trust-item {
+                border-right: 0;
+            }
+
+            .hero h1 {
+                font-size: 39px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .hero-buttons .btn {
+                width: 100%;
+            }
+
+            .course-card {
+                padding: 28px;
+            }
+        }
+    
+        /* =========================
+           BACKGROUND IMAGES
+           Put your photos in an "images" folder next to this file.
+           Change a file name here and it updates everywhere.
+           Gradients below show until the photo is added.
+        ========================== */
+        :root {
+            --img-hero: url('https://user41127.na.imgto.link/public/20261005/image.avif');
+            --img-training: url('images/training.jpg');
+            --img-clinic: url('images/clinic.jpg');
+            --img-services: url('images/services.jpg');
+            --img-courses: url('images/courses.jpg');
+            --img-contact: url('images/contact.jpg');
+        }
+
+        .hero {
+            background:
+                linear-gradient(90deg, rgba(8,49,40,.93) 0%, rgba(8,49,40,.72) 50%, rgba(8,49,40,.25) 100%),
+                var(--img-hero) center / cover no-repeat,
+                radial-gradient(circle at 75% 40%, #76ad9a, #174f42 65%);
+        }
+
+        .services {
+            background:
+                linear-gradient(rgba(238,247,243,.93), rgba(238,247,243,.96)),
+                var(--img-services) center / cover no-repeat,
+                var(--light);
+        }
+
+        .courses {
+            background:
+                linear-gradient(rgba(23,53,46,.90), rgba(13,40,34,.95)),
+                var(--img-courses) center / cover no-repeat,
+                var(--dark);
+        }
+
+        .training-box {
+            background:
+                linear-gradient(160deg, rgba(23,107,87,.92), rgba(13,77,63,.96)),
+                var(--img-training) center / cover no-repeat,
+                var(--primary);
+        }
+
+        .contact-info {
+            background:
+                linear-gradient(rgba(23,53,46,.92), rgba(13,40,34,.96)),
+                var(--img-contact) center / cover no-repeat,
+                var(--dark);
+        }
+
+        @media (min-width: 1001px) {
+            .courses { background-attachment: scroll, fixed, scroll; }
+        }
+
+        /* =========================
+           TWO SERVICES: TRAINING + CLINIC
+        ========================== */
+        .pillars { padding-bottom: 40px; }
+
+        .pillar-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .pillar {
+            min-height: 420px;
+            border-radius: var(--radius);
+            overflow: hidden;
+            display: flex;
+            align-items: flex-end;
+            color: #fff;
+            padding: 40px;
+            box-shadow: var(--shadow);
+            background-size: cover;
+            background-position: center;
+            transition: transform .3s, box-shadow .3s;
+        }
+
+        .pillar:hover { transform: translateY(-4px); }
+
+        .pillar:focus-visible,
+        .btn:focus-visible,
+        .nav-links a:focus-visible,
+        summary:focus-visible {
+            outline: 3px solid var(--secondary);
+            outline-offset: 3px;
+        }
+
+        .pillar-training {
+            background-image:
+                linear-gradient(to top, rgba(8,49,40,.95) 15%, rgba(8,49,40,.35) 70%),
+                var(--img-training),
+                linear-gradient(135deg, #1f7a64, #0d4d3f);
+        }
+
+        .pillar-clinic {
+            background-image:
+                linear-gradient(to top, rgba(46,38,23,.95) 15%, rgba(46,38,23,.30) 70%),
+                var(--img-clinic),
+                linear-gradient(135deg, #b8893a, #6b4f1d);
+        }
+
+        .pillar h3 { font-size: 34px; letter-spacing: -.5px; margin-bottom: 10px; }
+        .pillar p { color: rgba(255,255,255,.88); max-width: 440px; }
+
+        .pillar-link {
+            display: inline-block;
+            margin-top: 18px;
+            font-weight: 700;
+            color: #f2d083;
+            border-bottom: 2px solid #f2d083;
+        }
+
+        @media (max-width: 760px) {
+            .pillar-grid { grid-template-columns: 1fr; }
+            .pillar { min-height: 340px; padding: 28px; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            .pillar, .btn, .person-card, .service-card { transition: none; }
+        }
+
+        /* =========================
+           LOGO + BRAND COLOURS (indigo and lavender from the logo,
+           gold from the needles, green from the leaves)
+        ========================== */
+        :root {
+            --primary: #4a2c8f;
+            --primary-dark: #25185e;
+            --secondary: #d8a84e;
+            --cream: #f7f4fc;
+            --light: #eeeaf8;
+            --dark: #1b1448;
+            --text: #51506b;
+            --border: #e0dbf0;
+            --shadow: 0 15px 40px rgba(40, 25, 100, 0.12);
+        }
+
+        .logo-img {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+            box-shadow: 0 4px 14px rgba(40,25,100,.25);
+        }
+
+        .footer-logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 18px;
+        }
+
+        .hero {
+            background:
+                linear-gradient(90deg, rgba(27,20,72,.96) 0%, rgba(27,20,72,.80) 42%, rgba(27,20,72,.10) 100%),
+                var(--img-hero) right center / cover no-repeat,
+                radial-gradient(circle at 75% 40%, #7a5fc4, #25185e 65%);
+        }
+
+        .services {
+            background:
+                linear-gradient(rgba(238,234,248,.93), rgba(238,234,248,.96)),
+                var(--img-services) center / cover no-repeat,
+                var(--light);
+        }
+
+        .courses {
+            background:
+                linear-gradient(rgba(27,20,72,.91), rgba(20,14,56,.95)),
+                var(--img-courses) center / cover no-repeat,
+                var(--dark);
+        }
+
+        .training-box {
+            background:
+                linear-gradient(160deg, rgba(74,44,143,.92), rgba(37,24,94,.96)),
+                var(--img-training) center / cover no-repeat,
+                var(--primary);
+        }
+
+        .contact-info {
+            background:
+                linear-gradient(rgba(27,20,72,.92), rgba(20,14,56,.96)),
+                var(--img-contact) center / cover no-repeat,
+                var(--dark);
+        }
+
+        .pillar-training {
+            background-image:
+                linear-gradient(to top, rgba(27,20,72,.95) 15%, rgba(27,20,72,.35) 70%),
+                var(--img-training),
+                linear-gradient(135deg, #5a38a8, #25185e);
+        }
+
+        footer { background: #140e38; }
+
+        @media (min-width: 1001px) {
+            .courses { background-attachment: scroll, fixed, scroll; }
+        }
+
+        /* =========================
+           FOOTER (improved)
+        ========================== */
+        footer {
+            background:
+                linear-gradient(180deg, #140e38, #0e0a2b);
+            padding: 70px 0 24px;
+            border-top: 4px solid var(--secondary);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.6fr 1fr 1fr 1.3fr;
+            gap: 44px;
+            padding-bottom: 44px;
+        }
+
+        .footer-brand-head {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 18px;
+        }
+
+        .footer-brand-head h3 {
+            margin: 0;
+            font-size: 18px;
+            line-height: 1.3;
+        }
+
+        .footer .footer-logo,
+        footer .footer-logo {
+            width: 96px;
+            height: 96px;
+            margin: 0;
+            flex-shrink: 0;
+            border-radius: 50%;
+            object-fit: cover;
+            background: #efeafa;
+            border: 3px solid rgba(216,168,78,.7);
+        }
+
+        .footer-motto {
+            margin-top: 12px;
+            color: #f2d083;
+            font-weight: 600;
+        }
+
+        .footer-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 24px;
+        }
+
+        .btn-ghost {
+            border-color: rgba(255,255,255,.4);
+            color: #fff;
+        }
+
+        .btn-ghost:hover {
+            background: #fff;
+            color: var(--primary-dark);
+        }
+
+        footer h4 {
+            color: #fff;
+            font-size: 16px;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(216,168,78,.55);
+            display: inline-block;
+        }
+
+        .footer-links li { margin: 10px 0; }
+
+        .footer-links a,
+        .footer-contact a {
+            transition: color .2s;
+        }
+
+        .footer-links a:hover,
+        .footer-contact a:hover,
+        .footer-links a:focus-visible,
+        .footer-contact a:focus-visible {
+            color: var(--secondary);
+        }
+
+        .footer-contact { font-style: normal; }
+        .footer-contact p { margin-bottom: 14px; }
+
+        .copyright {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 8px 24px;
+            text-align: left;
+        }
+
+        .footer-note { color: rgba(255,255,255,.5); }
+
+        @media (max-width: 1000px) {
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+            .footer-brand { grid-column: 1 / -1; }
+        }
+
+        @media (max-width: 560px) {
+            .footer-grid { grid-template-columns: 1fr; gap: 30px; }
+            .footer-brand-head { align-items: flex-start; }
+            .copyright { flex-direction: column; text-align: left; }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- =========================
+     TOP BAR
+========================== -->
+
+<div class="topbar">
+    <div class="container topbar-inner">
+        <div class="top-contact">
+            <a href="tel:+918939360751">📞 8939360751</a>
+            <a href="tel:+918939360752">8939360752</a>
+            <a href="tel:+919841412464">98414 12464</a>
+            <span>📍 Chennai, Tamil Nadu</span>
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     NAVIGATION
+========================== -->
+
+<header>
+    <div class="container nav">
+
+        <a href="#home" class="logo">
+            <img class="logo-img" src="https://user41127.na.imgto.link/public/20261005/logo.avif" alt="Divine Acupuncture Learning and Research Center logo" width="64" height="64">
+            <div class="logo-text">
+                <strong>DIVINE ACUPUNCTURE</strong>
+                <span>LEARNING & RESEARCH CENTER</span>
+            </div>
+        </a>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Clinic</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li>
+                <a href="#contact" class="nav-cta">Enquire Now</a>
+            </li>
+        </ul>
+
+    </div>
+</header>
+
+
+<!-- =========================
+     HERO
+========================== -->
+
+<section class="hero" id="home">
+    <div class="container">
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+                Traditional Knowledge • Clinical Practice • Professional Education
+            </div>
+
+            <h1>
+                Learn. Practice.<br>
+                <span>Serve.</span>
+            </h1>
+
+            <p>
+                Divine Acupuncture Learning and Research Center brings together
+                acupuncture education, practical clinical training and complementary
+                therapeutic services under one roof in Chennai.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#courses" class="btn btn-primary">
+                    Explore Courses
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+                    Book / Enquire
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =========================
+     TRUST STRIP
+========================== -->
+
+<div class="container trust-strip">
+    <div class="trust-grid">
+
+        <div class="trust-item">
+            <strong>Clinical Practice</strong>
+            <span>Patient-oriented care</span>
+        </div>
+
+        <div class="trust-item">
+            <strong>Practical Training</strong>
+            <span>Hands-on learning</span>
+        </div>
+
+        <div class="trust-item">
+            <strong>1-Year Courses</strong>
+            <span>Diploma & Master programs</span>
+        </div>
+
+        <div class="trust-item">
+            <strong>Chennai</strong>
+            <span>Manali New Town</span>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- =========================
+     TWO SERVICES
+========================== -->
+
+<section class="pillars" id="pillars">
+    <div class="container">
+
+        <div class="section-heading center">
+            <div class="section-label">Two Ways We Serve</div>
+            <h2>Learn the practice, or receive the care.</h2>
+        </div>
+
+        <div class="pillar-grid">
+
+            <a class="pillar pillar-training" href="#courses">
+                <div>
+                    <h3>Training</h3>
+                    <p>
+                        Diploma and Master programs in acupuncture with
+                        supervised practical learning. One year each,
+                        with a certificate on completion.
+                    </p>
+                    <span class="pillar-link">See courses</span>
+                </div>
+            </a>
+
+            <a class="pillar pillar-clinic" href="#services">
+                <div>
+                    <h3>Clinic</h3>
+                    <p>
+                        Acupuncture, cupping, moxa and foot reflexology,
+                        planned around each person's complaints.
+                    </p>
+                    <span class="pillar-link">See clinic services</span>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =========================
+     ABOUT
+========================== -->
+
+<section class="about" id="about">
+    <div class="container">
+
+        <div class="about-grid">
+
+            <div>
+                <div class="section-label">About Our Center</div>
+
+                <h2>
+                    Education and clinical practice under one roof.
+                </h2>
+
+                <p>
+                    Divine Acupuncture Learning and Research Center is dedicated
+                    to providing acupuncture education, clinical practice and
+                    complementary wellness therapies.
+                </p>
+
+                <p style="margin-top:15px;">
+                    Our teaching approach combines theory, practical training,
+                    point identification, clinical observation, treatment planning
+                    and supervised practice.
+                </p>
+            </div>
+
+            <div class="about-card">
+
+                <h3>Our Focus</h3>
+
+                <ul class="check-list">
+                    <li>Acupuncture education and practical training</li>
+                    <li>Clinical exposure and hands-on practice</li>
+                    <li>Traditional and complementary therapies</li>
+                    <li>Patient-oriented care</li>
+                    <li>Research and learning</li>
+                    <li>Continuing education for practitioners</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =========================
+     FOUNDERS
+========================== -->
+
+<section id="founders">
+    <div class="container">
+
+        <div class="section-heading center">
+            <div class="section-label">Leadership</div>
+            <h2>Our Founders</h2>
+            <p>
+                Experienced leadership supporting education, clinical learning
+                and professional development.
+            </p>
+        </div>
+
+        <div class="people-grid">
+
+            <div class="person-card">
+                <div class="person-icon">DR</div>
+                <h3>Prof. Dr. G. S. Venugopal</h3>
+                <p>Founder</p>
+            </div>
+
+            <div class="person-card">
+                <div class="person-icon">DR</div>
+                <h3>Prof. Dr. P. Gothandaraman</h3>
+                <p>Co-Founder</p>
+            </div>
+
+        </div>
+
+        <div class="healers">
+
+            <div class="section-heading center">
+                <div class="section-label">Clinical Team</div>
+                <h2>Our Healers</h2>
+            </div>
+
+            <div class="healers-grid">
+
+                <div class="person-card">
+                    <div class="person-icon">P</div>
+                    <h3>Healer Dr. Priyanka</h3>
+                    <p>Acupuncture & Complementary Therapy Practitioner</p>
+                </div>
+
+                <div class="person-card">
+                    <div class="person-icon">K</div>
+                    <h3>Healer Dr. Karthick Sai</h3>
+                    <p>Acupuncture & Complementary Therapy Practitioner</p>
+                </div>
+
+                <div class="person-card">
+                    <div class="person-icon">S</div>
+                    <h3>Healer Dr. Surekha</h3>
+                    <p>Acupuncture & Complementary Therapy Practitioner</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =========================
+     CLINICAL SERVICES
+========================== -->
+
+<section class="services" id="services">
+    <div class="container">
+
+        <div class="section-heading center">
+            <div class="section-label">Clinical Services</div>
+
+            <h2>
+                Complementary therapies tailored to individual needs.
+            </h2>
+
+            <p>
+                Our practitioners assess the individual's complaints and
+                clinical presentation before selecting appropriate techniques.
+            </p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="service-icon">◎</div>
+                <h3>Acupuncture</h3>
+                <p>
+                    Acupuncture-based therapeutic practice with individualized
+                    point selection and treatment planning.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">◉</div>
+                <h3>Cupping Therapy</h3>
+                <p>
+                    Traditional cupping techniques used as a complementary
+                    approach for selected muscular and wellness concerns.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">✦</div>
+                <h3>Moxa Therapy</h3>
+                <p>
+                    Controlled heat from moxa applied to selected points within
+                    traditional acupuncture practice.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">◌</div>
+                <h3>Foot Reflexology</h3>
+                <p>
+                    Pressure techniques applied to areas of the feet as part
+                    of a complementary relaxation and wellness approach.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =========================
+     CONDITIONS
+========================== -->
+
+<section>
+    <div class="container">
+
+        <div class="conditions-grid">
+
+            <div>
+
+                <div class="section-label">Conditions & Complaints</div>
+
+                <h2>
+                    Support for common pain and wellness complaints.
+                </h2>
+
+                <p>
+                    Our clinical services may be considered for a range of
+                    common complaints and wellness concerns.
+                </p>
+
+                <div class="condition-list" style="margin-top:25px;">
+
+                    <div class="condition">Knee Pain</div>
+                    <div class="condition">Back Pain</div>
+                    <div class="condition">Sciatica</div>
+                    <div class="condition">Neck Discomfort</div>
+                    <div class="condition">Shoulder Discomfort</div>
+                    <div class="condition">Joint Stiffness</div>
+                    <div class="condition">Muscular Tension</div>
+                    <div class="condition">Headache-related Complaints</div>
+                    <div class="condition">Stress & Relaxation Support</div>
+                    <div class="condition">General Wellness</div>
+
+                </div>
+
+            </div>
+
+            <div class="individual">
+
+                <h3>Individualized Approach</h3>
+
+                <p>
+                    Every person is different. Our practitioners assess the
+                    individual's complaints and clinical presentation before
+                    selecting appropriate acupuncture or complementary therapy
+                    techniques.
+                </p>
+
+                <p style="margin-top:15px;">
+                    Treatment is planned according to individual needs and
+                    should not be considered a substitute for emergency or
+                    essential medical care.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =========================
+     COURSES
+========================== -->
+
+<section class="courses" id="courses">
+    <div class="container">
+
+        <div class="section-heading center">
+            <div class="section-label" style="color:#f2d083;">
+                Acupuncture Education
+            </div>
+
+            <h2>Professional Courses</h2>
+
+            <p>
+                Structured learning combining classroom concepts,
+                practical demonstrations and clinical exposure.
+            </p>
+        </div>
+
+        <div class="course-grid">
+
+            <!-- DIPLOMA -->
+
+            <div class="course-card featured">
+
+                <div class="course-number">01 • FOUNDATION PROGRAM</div>
+
+                <h3>Diploma in Acupuncture</h3>
+
+                <p>
+                    A structured program designed to introduce students to the
+                    foundations of acupuncture and related therapeutic practices.
+                </p>
+
+                <ul class="course-list">
+                    <li>Introduction to Acupuncture</li>
+                    <li>History and Principles</li>
+                    <li>Yin-Yang Theory</li>
+                    <li>Five Elements Theory</li>
+                    <li>Meridians</li>
+                    <li>Acupuncture Points</li>
+                    <li>Point Location</li>
+                    <li>Acupuncture Techniques</li>
+                    <li>Needle Types & Handling</li>
+                    <li>Basic Diagnosis</li>
+                    <li>Pulse Observation</li>
+                    <li>Tongue Observation</li>
+                    <li>Treatment Principles</li>
+                    <li>Clinical Case Discussion</li>
+                    <li>Supervised Practical Training</li>
+                </ul>
+
+                <div class="course-meta">
+                    <span>Duration: 1 Year</span>
+                    <span>Certificate Provided</span>
+                </div>
+
+            </div>
+
+
+            <!-- MASTER -->
+
+            <div class="course-card">
+
+                <div class="course-number">02 • ADVANCED PROGRAM</div>
+
+                <h3>Master in Acupuncture</h3>
+
+                <p>
+                    An advanced learning program intended for students and
+                    practitioners seeking deeper knowledge and practical skills.
+                </p>
+
+                <ul class="course-list">
+                    <li>Advanced Meridian Theory</li>
+                    <li>Five Elements</li>
+                    <li>TCM Principles</li>
+                    <li>Point Functions</li>
+                    <li>Pattern Identification</li>
+                    <li>Pulse Diagnosis</li>
+                    <li>Tongue Diagnosis</li>
+                    <li>Advanced Techniques</li>
+                    <li>Scalp Acupuncture</li>
+                    <li>Auricular Acupuncture</li>
+                    <li>Wrist-Ankle Acupuncture</li>
+                    <li>Extra Points</li>
+                    <li>Eight Extraordinary Vessels</li>
+                    <li>ECIWO</li>
+                    <li>Reflexology</li>
+                    <li>Cupping & Moxa</li>
+                    <li>Case Documentation</li>
+                    <li>Treatment Planning</li>
+                    <li>Clinical Practice</li>
+                    <li>Case Discussion</li>
+                </ul>
+
+                <div class="course-meta">
+                    <span>Duration: 1 Year</span>
+                    <span>Certificate Provided</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =========================
+     PRACTICAL TRAINING
+========================== -->
+
+<section id="training">
+    <div class="container">
+
+        <div class="practical-grid">
+
+            <div>
+
+                <div class="section-label">Practical Training</div>
+
+                <h2>
+                    Learn the skill, not just the theory.
+                </h2>
+
+                <p>
+                    We emphasize practical learning alongside classroom
+                    education, allowing students to connect theoretical
+                    concepts with clinical situations.
+                </p>
+
+                <div class="practical-list">
+
+                    <div class="practical-item">✓ Point Location</div>
+                    <div class="practical-item">✓ Needle Handling</div>
+                    <div class="practical-item">✓ Needling Techniques</div>
+                    <div class="practical-item">✓ Treatment Positioning</div>
+                    <div class="practical-item">✓ Clinical Observation</div>
+                    <div class="practical-item">✓ Case Taking</div>
+                    <div class="practical-item">✓ Pulse Observation</div>
+                    <div class="practical-item">✓ Tongue Observation</div>
+                    <div class="practical-item">✓ Treatment Planning</div>
+                    <div class="practical-item">✓ Practical Demonstrations</div>
+                    <div class="practical-item">✓ Supervised Practice</div>
+                    <div class="practical-item">✓ Case Discussion</div>
+
+                </div>
+
+            </div>
+
+            <div class="training-box">
+
+                <h3>Clinical + Educational Approach</h3>
+
+                <p>
+                    Our center combines acupuncture education with practical
+                    clinical exposure, helping learners connect theoretical
+                    concepts with real-world practice.
+                </p>
+
+                <p style="margin-top:18px;">
+                    Students are encouraged to develop practical skills through
+                    demonstrations, observation and supervised learning.
+                </p>
+
+                <a href="#contact"
+                   class="btn btn-primary"
+                   style="margin-top:25px;">
+                    Enquire About Training
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =========================
+     WHY CHOOSE US
+========================== -->
+
+<section class="why">
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <div class="section-label">Why Choose Us</div>
+
+            <h2>
+                A center built around learning and practice.
+            </h2>
+
+        </div>
+
+        <div class="why-grid">
+
+            <div class="why-card">
+                <span>🏥</span>
+                <h3>Clinical + Educational</h3>
+                <p>
+                    Education and clinical exposure are brought together
+                    within the same center.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <span>✋</span>
+                <h3>Hands-on Learning</h3>
+                <p>
+                    Practical demonstrations and supervised training help
+                    develop real-world skills.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <span>👨‍⚕️</span>
+                <h3>Experienced Team</h3>
+                <p>
+                    Programs are supported by founders, faculty members and
+                    practicing healers.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <span>🌿</span>
+                <h3>Complementary Approach</h3>
+                <p>
+                    Acupuncture education and selected complementary therapies
+                    are offered in one professional environment.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =========================
+     VISION / MISSION
+========================== -->
+
+<section>
+    <div class="container">
+
+        <div class="vision-grid">
+
+            <div class="vision-card">
+                <div class="section-label">Our Vision</div>
+
+                <h3>Promoting responsible practice.</h3>
+
+                <p>
+                    To promote the responsible learning, teaching and practice
+                    of acupuncture and complementary therapeutic systems while
+                    encouraging continuous education and professional development.
+                </p>
+            </div>
+
+            <div class="vision-card">
+                <div class="section-label">Our Mission</div>
+
+                <h3>Education with practical learning.</h3>
+
+                <p>
+                    To provide quality acupuncture education, practical training,
+                    clinical learning opportunities and complementary wellness
+                    services in a structured and professional environment.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =========================
+     FAQ
+========================== -->
+
+<section class="faq" id="faq">
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <div class="section-label">FAQ</div>
+
+            <h2>Frequently Asked Questions</h2>
+
+            <p>
+                Everything you need to know before contacting our center.
+            </p>
+
+        </div>
+
+        <div class="faq-list">
+
+            <details>
+                <summary>What courses do you offer?</summary>
+                <p>
+                    We offer Diploma in Acupuncture and Master in Acupuncture
+                    programs.
+                </p>
+            </details>
+
+            <details>
+                <summary>Is practical training included?</summary>
+                <p>
+                    Yes. Practical training, demonstrations and supervised
+                    clinical learning are included in the programs.
+                </p>
+            </details>
+
+            <details>
+                <summary>What is the duration of each course?</summary>
+                <p>
+                    The stated duration for each course is 1 year.
+                    Please contact the center for the current batch schedule.
+                </p>
+            </details>
+
+            <details>
+                <summary>Who can join the courses?</summary>
+                <p>
+                    Candidates who have completed 10th standard can apply,
+                    provided they can read, write and speak Tamil or English.
+                    Candidates from any degree background may also apply.
+                </p>
+            </details>
+
+            <details>
+                <summary>Is a certificate provided?</summary>
+                <p>
+                    Yes. A certificate is provided on successful completion
+                    of the respective program.
+                </p>
+            </details>
+
+            <details>
+                <summary>Do you provide clinical training?</summary>
+                <p>
+                    Yes. Clinical exposure and supervised practical training
+                    are part of the learning approach.
+                </p>
+            </details>
+
+            <details>
+                <summary>How can I book a clinic appointment?</summary>
+                <p>
+                    You can contact the center by phone or WhatsApp to enquire
+                    about an appointment.
+                </p>
+            </details>
+
+            <details>
+                <summary>Where is the institute located?</summary>
+                <p>
+                    52/50, Manali New Town, Chennai – 600103,
+                    opposite Zion Mani Super Market.
+                </p>
+            </details>
+
+            <details>
+                <summary>How can I enquire about admission?</summary>
+                <p>
+                    Use the enquiry form on this website or contact the
+                    institute directly by phone or WhatsApp.
+                </p>
+            </details>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================== -->
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="contact-grid">
+
+            <!-- CONTACT INFO -->
+
+            <div class="contact-info">
+
+                <div class="section-label" style="color:#f2d083;">
+                    Contact Us
+                </div>
+
+                <h2>
+                    Start your learning or clinical enquiry.
+                </h2>
+
+                <div class="contact-item">
+
+                    <div class="contact-item-icon">📍</div>
+
+                    <div>
+                        <strong>Address</strong>
+                        <span>
+                            52/50 Manali New Town,<br>
+                            Chennai – 600103<br>
+                            Opposite to Zion Mani Super Market
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <div class="contact-item-icon">📞</div>
+
+                    <div>
+                        <strong>Phone</strong>
+
+                        <a href="tel:+918939360751">
+                            8939360751
+                        </a><br>
+
+                        <a href="tel:+918939360752">
+                            8939360752
+                        </a><br>
+
+                        <a href="tel:+919841412464">
+                            98414 12464
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <div class="contact-item-icon">✉</div>
+
+                    <div>
+                        <strong>Email</strong>
+
+                        <a href="mailto:divineacupuncter2026@gmail.com">
+                            divineacupuncter2026@gmail.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <a
+                    href="https://wa.me/918939360751?text=Hello%20Divine%20Acupuncture%20Learning%20and%20Research%20Center%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+                    target="_blank"
+                    class="btn btn-primary"
+                    style="margin-top:10px;">
+                    WhatsApp Us
+                </a>
+
+            </div>
+
+
+            <!-- FORM -->
+
+            <div class="contact-form">
+
+                <h3>Course / Clinic Enquiry</h3>
+
+                <form id="enquiryForm">
+
+                    <div class="form-grid">
+
+                        <div class="form-group">
+
+                            <label for="name">Full Name *</label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your name"
+                                required>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="phone">Phone Number *</label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="Enter phone number"
+                                required>
+
+                        </div>
+
+                        <div class="form-group full">
+
+                            <label for="interest">
+                                I am interested in *
+                            </label>
+
+                            <select id="interest" name="interest" required>
+
+                                <option value="">
+                                    Select an option
+                                </option>
+
+                                <option>
+                                    Diploma in Acupuncture
+                                </option>
+
+                                <option>
+                                    Master in Acupuncture
+                                </option>
+
+                                <option>
+                                    Clinical Appointment
+                                </option>
+
+                                <option>
+                                    Cupping Therapy
+                                </option>
+
+                                <option>
+                                    Moxa Therapy
+                                </option>
+
+                                <option>
+                                    Foot Reflexology
+                                </option>
+
+                                <option>
+                                    General Enquiry
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="form-group full">
+
+                            <label for="message">
+                                Message
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                placeholder="Tell us how we can help you..."></textarea>
+
+                        </div>
+
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary"
+                        style="width:100%;">
+                        Send Enquiry on WhatsApp
+                    </button>
+
+                    <p class="form-note">
+                        By submitting this form, you will be redirected to
+                        WhatsApp to send your enquiry to the center.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     MAP
+========================== -->
+
+<section class="map-section">
+
+    <iframe
+        class="map"
+        src="https://www.google.com/maps?q=52%2F50%20Manali%20New%20Town%2C%20Chennai%20600103&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================== -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div class="footer-brand">
+                <a href="#home" class="footer-brand-head">
+                    <img class="footer-logo" src="https://user41127.na.imgto.link/public/20261005/logo.avif" alt="Divine Acupuncture Learning and Research Center logo" width="96" height="96">
+                    <h3>Divine Acupuncture<br>Learning &amp; Research Center</h3>
+                </a>
+
+                <p>
+                    Acupuncture education and clinical care in Manali New Town, Chennai.
+                </p>
+
+                <p class="footer-motto">Learn deeply. Heal naturally. Serve selflessly.</p>
+
+                <div class="footer-actions">
+                    <a class="btn btn-primary" href="https://wa.me/918939360751" target="_blank" rel="noopener">WhatsApp us</a>
+                    <a class="btn btn-ghost" href="tel:+918939360751">Call now</a>
+                </div>
+            </div>
+
+            <div>
+                <h4>Training</h4>
+                <ul class="footer-links">
+                    <li><a href="#courses">Diploma in Acupuncture</a></li>
+                    <li><a href="#courses">Master in Acupuncture</a></li>
+                    <li><a href="#training">Practical training</a></li>
+                    <li><a href="#contact">Admission enquiry</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Clinic</h4>
+                <ul class="footer-links">
+                    <li><a href="#services">Acupuncture</a></li>
+                    <li><a href="#services">Cupping therapy</a></li>
+                    <li><a href="#services">Moxa therapy</a></li>
+                    <li><a href="#services">Foot reflexology</a></li>
+                    <li><a href="#contact">Book an appointment</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Visit and contact</h4>
+                <address class="footer-contact">
+                    <p>52/50 Manali New Town,<br>Chennai – 600103<br>Opposite Zion Mani Super Market</p>
+                    <p>
+                        <a href="tel:+918939360751">8939360751</a><br>
+                        <a href="tel:+918939360752">8939360752</a><br>
+                        <a href="tel:+919841412464">98414 12464</a>
+                    </p>
+                    <p><a href="mailto:divineacupuncter2026@gmail.com">divineacupuncter2026@gmail.com</a></p>
+                </address>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <span>© <span id="year"></span> Divine Acupuncture Learning and Research Center. All rights reserved.</span>
+            <span class="footer-note">Treatment is not a substitute for emergency or essential medical care.</span>
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================
+     FLOATING WHATSAPP
+========================== -->
+
+<a
+    class="whatsapp"
+    href="https://wa.me/918939360751?text=Hello%20Divine%20Acupuncture%20Learning%20and%20Research%20Center%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+    target="_blank"
+    aria-label="Contact us on WhatsApp">
+    ☎
+</a>
+
+
+<script>
+
+    /* Mobile Navigation */
+
+    function toggleMenu() {
+
+        const nav = document.getElementById("navLinks");
+
+        nav.classList.toggle("active");
+
+    }
+
+
+    /* Close mobile menu after clicking */
+
+    document.querySelectorAll("#navLinks a").forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            document
+                .getElementById("navLinks")
+                .classList.remove("active");
+
+        });
+
+    });
+
+
+    /* WhatsApp Enquiry Form */
+
+    document
+        .getElementById("enquiryForm")
+        .addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            const name =
+                document.getElementById("name").value.trim();
+
+            const phone =
+                document.getElementById("phone").value.trim();
+
+            const interest =
+                document.getElementById("interest").value;
+
+            const message =
+                document.getElementById("message").value.trim();
+
+
+            const whatsappMessage =
+                `Hello Divine Acupuncture Learning and Research Center,
+
+I would like to make an enquiry.
+
+Name: ${name}
+Phone: ${phone}
+Interested In: ${interest}
+
+Message:
+${message || "No additional message."}`;
+
+
+            const whatsappURL =
+                "https://wa.me/918939360751?text=" +
+                encodeURIComponent(whatsappMessage);
+
+
+            window.open(
+                whatsappURL,
+                "_blank"
+            );
+
+        });
+
+
+    /* Current Year */
+
+    document.getElementById("year").textContent =
+        new Date().getFullYear();
+
+</script>
+
+</body>
+</html>
